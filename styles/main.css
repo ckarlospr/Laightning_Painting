@@ -25,6 +25,7 @@
 .home-description {
     display: grid;
     grid-template-columns: 4fr 6fr;
+    margin-left: 40px;
 }
 
 .description-left {
@@ -52,6 +53,7 @@
     display: flex;
     flex-direction: row;
     justify-content: right;
+    margin-right: 40px;
 }
 
 .description-right img {
@@ -63,6 +65,7 @@
     font-weight: 600;
     color: rgb(102, 102, 102);
     font-size: 20px;
+    margin-left: 40px;
 }
 
 .offer-definition {
@@ -119,6 +122,29 @@
 .offer-def-button div:hover{
     background-color: rgb(138, 138, 138);
     cursor: pointer;
+}
+
+/******************services***********************/
+.services-division img{
+    width: 100%;
+}
+
+.services-title{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.services-details{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 250px 6px;
+}
+
+.services-details >div:hover{
+    opacity: .9;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 /******************about***********************/
