@@ -1,0 +1,137 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.main-container {
+    background-color: lightblue;
+    padding-bottom: 850px;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: static;
+}
+
+/******************Home***********************/
+
+.home {
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+.home-description {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+}
+
+.description-left {
+    background-color: white;
+    display: inline-block;
+}
+
+.desc-title {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(180, 0, 0);
+    margin-bottom: 40px;
+    white-space: pre;
+}
+
+.desc-comp {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(165, 165, 165);
+    margin-bottom: 40px;
+}
+
+.description-right {
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.description-right img {
+    height: 470px;
+}
+
+.offer {
+    background-color: white;
+    font-weight: 600;
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+}
+
+.offer-definition {
+    background-color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    border-width: 1px 3px 4px 1px;
+    border-style: solid;
+    border-color: lightgray;
+    border-color: rgb(238, 238, 238);
+    
+}
+
+.offer-definition div{
+    width: 250px;
+    text-align: center;
+}
+
+.offer-def-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(129, 129, 129);
+}
+
+.offer-def-redaction {
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(43, 43, 43);
+}
+
+.offer-def-button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.offer-def-button div{
+    background-color: lightgray;
+    height: 35px;
+    width: 140px;
+    padding-top: 10px;
+
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.offer-def-button div:hover{
+    background-color: rgb(138, 138, 138);
+    cursor: pointer;
+}
+
+/******************about***********************/
+.about {
+    background-color: white;
+}
+
+/******************galery***********************/
+.galery {
+    background-color: lightpink;
+}
+
+/******************contact***********************/
+.contact {
+    background-color: lightgray;
+}
